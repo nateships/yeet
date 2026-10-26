@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.17.5](https://github.com/monkescience/yeet/compare/v0.17.4...v0.17.5) (2026-10-26)
+
+### Bug Fixes
+
+- **provider:** apply request_timeout per attempt instead of per retry loop ([5ca6728](https://github.com/monkescience/yeet/commit/5ca67289e0ba197a3dffd92af37f01906b780ae9))
+- **provider:** drop the ssh port from the remote host ([f05d6a6](https://github.com/monkescience/yeet/commit/f05d6a6e747ca76f07cf7d427c4e7d1861cbf23b))
+- **github:** enforce the 65536 character pull request body limit ([7826130](https://github.com/monkescience/yeet/commit/7826130fa88f613ceae366b4b4271b98cc0fe0fd))
+
 ## [v0.17.4](https://github.com/monkescience/yeet/compare/v0.17.3...v0.17.4) (2026-10-26)
 
 ### Bug Fixes
